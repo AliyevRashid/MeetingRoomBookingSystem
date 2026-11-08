@@ -1,0 +1,16 @@
+# Visual Studio / IDE cache
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+publish/
+
+# Test results
+TestResults/
+*.cobertura.xml
+coveragereport/

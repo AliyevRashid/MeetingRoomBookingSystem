@@ -1,0 +1,27 @@
+<Solution>
+  <Folder Name="/common/">
+    <Project Path="common-library/common-library.csproj" />
+  </Folder>
+  <Folder Name="/core-service/">
+    <Project Path="core-service/core-service.Application/core-service.Application.csproj" />
+    <Project Path="core-service/core-service.Domain/core-service.Domain.csproj" />
+    <Project Path="core-service/core-service.Infrastructure/core-service.Infrastructure.csproj" />
+    <Project Path="core-service/core-service.Presentation/core-service.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/notification-service/">
+    <Project Path="notification-service/notification-service.Application/notification_service.Application.csproj" />
+    <Project Path="notification-service/notification-service.Domain/notification_service.Domain.csproj" />
+    <Project Path="notification-service/notification-service.Infrastructure/notification_service.Infrastructure.csproj" />
+    <Project Path="notification-service/notification-service.Presentation/notification_service.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/unit-tests/core-service.UnitTests/core-service.UnitTests/core-service.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/integration-tests/" />
+  <Folder Name="/tests/integration-tests/core-service.IntegrationTests/">
+    <Project Path="tests/integration-tests/core-service.IntegrationTests/core-service.IntegrationTests/core-service.IntegrationTests.csproj" Id="c25fd066-67b1-4cbd-a4ba-197d71fa3c37" />
+  </Folder>
+  <Folder Name="/tests/tests-shared/">
+    <Project Path="tests/tests-shared/core-service.TestsShared/core-service.TestsShared/core-service.TestsShared.csproj" Id="4c098533-fa98-4431-9c87-0fd44054fd22" />
+  </Folder>
+</Solution>
